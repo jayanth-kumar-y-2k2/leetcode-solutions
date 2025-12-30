@@ -6,7 +6,7 @@ This repository contains curated, concept-wise solutions for the essential 150 L
 
 ## Repository Structure
 
-- `/<topic>/<problem-number>_<slug>.py`: Solutions grouped by topic (for example `arrays/001_two_sum.py`).
+- `/<topic>/s<seq>_<problem-number>_<slug>.py`: Solutions grouped by topic (for example `arrays/s001_001_two_sum.py`).
 - `README.md`: Project overview and how to contribute.
 
 ## Problems
