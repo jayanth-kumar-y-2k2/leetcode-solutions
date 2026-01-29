@@ -14,3 +14,14 @@ This repository contains curated, concept-wise solutions for the essential 150 L
 ### 1. Arrays and Hashing
 
 - #1 Two Sum
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/jayanth-kumar-y-2k2/leetcode-solutions/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/jayanth-kumar-y-2k2/leetcode-solutions/tree/master/0001-two-sum) |
+<!---LeetCode Topics End-->
