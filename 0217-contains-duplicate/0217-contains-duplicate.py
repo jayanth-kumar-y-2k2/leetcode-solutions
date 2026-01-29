@@ -4,11 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        unique_nums = set()
+        unique_nums = set(nums)
 
-        for num in nums:
-            if num in unique_nums:
-                return True
-            unique_nums.add(num)
+        if len(unique_nums) != len(nums):
+            return True
 
         return False
+
