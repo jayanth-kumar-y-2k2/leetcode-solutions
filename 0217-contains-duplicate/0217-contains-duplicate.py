@@ -4,15 +4,11 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        frequencies = {}
+        unique_nums = set()
+
         for num in nums:
-            if num in frequencies:
-                frequencies[num] += 1
-            else:
-                frequencies[num] = 1
-            
-        for count in frequencies.values():
-            if count > 1:
+            if num in unique_nums:
                 return True
-                
+            unique_nums.add(num)
+
         return False
